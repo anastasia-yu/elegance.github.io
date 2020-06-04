@@ -1,0 +1,248 @@
+        .wrapper {
+            /* display: grid; */
+            /* grid-template-columns: 1fr 1fr 1fr; */
+            /* grid-gap: 2vw; */
+            background-color: white;
+        }
+        
+        @media screen and (min-width: 800px) {
+            body {
+                background-image: url(../img/fon.jpg);
+                background-repeat: no-repeat;
+            }
+        }
+        
+        @media screen and (min-width: 801) {
+            body {
+                background-image: url(../img/fon.jpg);
+                background-repeat: no-repeat;
+            }
+        }
+        
+        @media screen and (min-width: 280px) and (max-width: 799px) {
+            body {
+                background-image: url(../img/fon.jpg);
+            }
+        }
+        
+        .htext {
+            color: ivory;
+            font-family: "MarckScriptRegular";
+            font-style: normal;
+            font-weight: bold;
+            font-size: 80px;
+            text-align: left;
+            padding-left: 30%;
+        }
+        
+        @font-face {
+            font-family: "MarckScriptRegular";
+            src: url("../pages/fonts/marck-script.regular.ttf");
+        }
+        
+        .footwrapper {
+            /* display: grid;*/
+            background-color: black;
+            color: white;
+            padding-bottom: 15px;
+            padding-top: 10px;
+            font-size: 30px;
+            text-align: center;
+        }
+        
+        .foot2wrapper {
+            /* display: grid;*/
+            background-color: #242323;
+            text-align: center;
+            color: #a0a09f;
+            font-size: 15px;
+        }
+        
+        @font-face {
+            font-family: "Libre Baskerville";
+            src: url(../pages/fonts/LibreBaskerville-Regular.ttf);
+        }
+        
+        .ptext {
+            font-size: 70px;
+            font-family: "Libre Baskerville";
+            text-align: center;
+        }
+        
+        .knopka {
+            display: inline-block;
+            box-sizing: border-box;
+            margin: 0 auto;
+            padding: 8px;
+            width: 80%;
+            max-width: 200px;
+            background: #fff;
+            /* запасной цвет для старых браузеров */
+            background: rgba(255, 255, 255, 0);
+            color: #fff;
+            text-align: center;
+            text-decoration: none;
+            letter-spacing: 1px;
+            transition: all 0.3s ease-out;
+            border: none;
+            list-style-type: none;
+        }
+        
+        .but {
+            text-align: center;
+            text-decoration: none;
+            color:white
+        }
+        .but a {
+            text-decoration: none;
+            color:white
+        }
+        .knopka1 a {
+            text-decoration: none;
+            color:white
+        }
+        
+        .knopka1 {
+            display: inline-block;
+            box-sizing: border-box;
+            margin: 0 auto;
+            padding: 8px;
+            width: 80%;
+            max-width: 200px;
+            opacity: 0.3;
+            background: black;
+            text-align: center;
+            color: white;
+            text-decoration: none;
+            letter-spacing: 1px;
+            transition: all 0.3s ease-out;
+        }
+        
+        #blog {
+            background-image: url(../img/blog1.jpg);
+            background: size 100%;
+            text-align: center;
+            height: 499px;
+            width: 472px;
+            margin-left: 1.5%;
+            margin-top: 1.5%;
+            margin-right: 1.5%;
+            margin-bottom: 1.5%;
+            /* margin-left: 55%; */
+        }
+        
+        @font-face {
+            font-family: "Belinda";
+            src: url(../pages/fonts/belinda.otf);
+        }
+        
+        #read {
+            font-family: "Belinda";
+            font-size: 42px;
+            padding-top: 200px;
+        }
+        
+        #blogtx {
+            font-family: "Libre Baskerville";
+            font-size: 31px;
+        }
+        
+        #hi {
+            /* display: grid; */
+            border: 5px solid #2f2e2e;
+            text-align: center;
+            /* margin-left: 55%; */
+            width: 462px;
+            height: 277px;
+            margin-left: 1.5%;
+            margin-top: 1.5%;
+            margin-right: 1.5%;
+            margin-bottom: 1.5%;
+           
+        }
+        
+        #read1 {
+            font-family: "Belinda";
+            font-size: 42px;
+        }
+        
+        #blogtx1 {
+            font-family: "Libre Baskerville";
+            font-size: 31px;
+        }
+        
+        #hi1 {
+            /* display: grid;*/
+            border: 5px solid #2f2e2e;
+            text-align: center;
+            /* margin-left: 160%; */
+            width: 462px;
+            height: 277px;
+           margin-left: 1.5%;
+            margin-top: 1.5%;
+            margin-right: 1.5%;
+            margin-bottom: 1.5%;
+        }
+        
+        #read2 {
+            font-family: "Belinda";
+            font-size: 42px;
+        }
+        
+        #blogtx2 {
+            font-family: "Libre Baskerville";
+            font-size: 31px;
+        }
+        
+        #hi2 {
+            background-image: url(../img/site1.jpg);
+            background: size 100%;
+            background-repeat: no-repeat;
+            text-align: center;
+            height: 499px;
+            width: 472px;
+            /* margin-left: 160%; */
+             margin-left: 1.5%;
+            margin-top: 1.5%;
+            margin-right: 1.5%;
+            margin-bottom: 1.5%;
+        }
+        
+        #read3 {
+            font-family: "Belinda";
+            font-size: 42px;
+            padding-top: 200px;
+            color: white;
+        }
+        
+        #blogtx3 {
+            font-family: "Libre Baskerville";
+            font-size: 31px;
+            color: white;
+        }
+        
+        .ptext1 {
+            font-size: 40px;
+            font-family: "Libre Baskerville";
+            text-align: center;
+            color: white;
+        }
+        
+        .flex-container {
+            display: flex;
+            flex-direction: column;
+            
+            
+        }
+        .display{
+            display: flex;
+            flex-direction: row;
+            flex-wrap: wrap;
+            justify-content: center;
+        }
+        .display1 {
+            display: flex;
+            flex-direction: row;
+            flex-wrap: wrap;
+            justify-content: center;
+        }
