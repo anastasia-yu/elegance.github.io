@@ -30,9 +30,9 @@
             font-family: "MarckScriptRegular";
             font-style: normal;
             font-weight: bold;
-            font-size: 80px;
+            font-size: 90px;
             text-align: left;
-            padding-left: 30%;
+            padding-left: 25%;
         }
         
         @font-face {
@@ -64,9 +64,10 @@
         }
         
         .ptext {
-            font-size: 70px;
+            font-size: 80px;
             font-family: "Libre Baskerville";
             text-align: center;
+            color:white;
         }
         
         .knopka {
@@ -91,11 +92,13 @@
         .but {
             text-align: center;
             text-decoration: none;
-            color:white
+            color:white;
+           
         }
         .but a {
             text-decoration: none;
-            color:white
+            color:white;
+             font-size: 150px;
         }
         .knopka1 a {
             text-decoration: none;
@@ -124,10 +127,8 @@
             text-align: center;
             height: 499px;
             width: 472px;
-            margin-left: 1.5%;
-            margin-top: 1.5%;
-            margin-right: 1.5%;
-            margin-bottom: 1.5%;
+            margin-bottom: 25px;
+           
             /* margin-left: 55%; */
         }
         
@@ -154,11 +155,8 @@
             /* margin-left: 55%; */
             width: 462px;
             height: 277px;
-            margin-left: 1.5%;
-            margin-top: 1.5%;
-            margin-right: 1.5%;
-            margin-bottom: 1.5%;
-           
+            margin-top: 25px;
+          
         }
         
         #read1 {
@@ -178,10 +176,8 @@
             /* margin-left: 160%; */
             width: 462px;
             height: 277px;
-           margin-left: 1.5%;
-            margin-top: 1.5%;
-            margin-right: 1.5%;
-            margin-bottom: 1.5%;
+            margin-bottom: 25px;
+       
         }
         
         #read2 {
@@ -201,11 +197,9 @@
             text-align: center;
             height: 499px;
             width: 472px;
+            margin-top: 25px;
             /* margin-left: 160%; */
-             margin-left: 1.5%;
-            margin-top: 1.5%;
-            margin-right: 1.5%;
-            margin-bottom: 1.5%;
+       
         }
         
         #read3 {
@@ -230,19 +224,20 @@
         
         .flex-container {
             display: flex;
-            flex-direction: column;
-            
-            
-        }
-        .display{
-            display: flex;
             flex-direction: row;
             flex-wrap: wrap;
-            justify-content: center;
+           justify-content: center;
+           margin: 25px;
+            
+            
         }
-        .display1 {
+        .col1 {
+            margin-top: 50px;
+            margin-left: 25px;
+            margin-right: 25px;
+            margin-bottom: 50px;
             display: flex;
-            flex-direction: row;
+            flex-direction: column;
             flex-wrap: wrap;
             justify-content: center;
         }
