@@ -3,6 +3,7 @@
             /* grid-template-columns: 1fr 1fr 1fr; */
             /* grid-gap: 2vw; */
             background-color: white;
+            justify-content: justify;
         }
         
         @media screen and (min-width: 800px) {
@@ -48,6 +49,7 @@
             padding-top: 10px;
             font-size: 30px;
             text-align: center;
+            align-content:justify;
         }
         
         .foot2wrapper {
